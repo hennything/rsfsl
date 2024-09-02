@@ -18,15 +18,15 @@ Run in the root directory.
 
 Generate experiment scripts for training:
 ```
-python generator.py --imbalanced_supports --results folder <dataset_name> --dataset <dataset_name>
+python generator.py --imbalanced_supports --results_folder <dataset_name> --dataset <dataset_name>
 ```
 Generate experiment scripts for testing:
 ```
-python generator.py --imbalanced_supports --test --results folder <dataset_name> --dataset <dataset_name>
+python generator.py --imbalanced_supports --test --results_folder <dataset_name> --dataset <dataset_name>
 ```
 Generate experiment scripts for strategies:
 ```
-python generator.py --imbalanced_supports --inference --results folder <dataset_name> --dataset <dataset_name>
+python generator.py --imbalanced_supports --inference --results_folder <dataset_name> --dataset <dataset_name>
 ```
 ## Running Experiments
 Run in the root directory
