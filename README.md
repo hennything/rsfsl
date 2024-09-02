@@ -31,7 +31,7 @@ python generator.py --imbalanced_supports --inference --results folder <dataset_
 ## Running Experiments
 Run in the root directory
 
-To run an experiment go into the folder `<dataset_name>` and into the `baseline` folder. Find the `congig.json` file and copy the relative path as the `<path_to_config_file>`.
+To run an experiment go into the folder `<dataset_name>` and into the `baseline` folder. Find the `congig.json` file and copy the relative path as the `<path_to_config_file>`. You may have to edit the path copied incase the file cannot be found.
 ```
 python src/main.py --args_file <path_to_config_file>
 ```
